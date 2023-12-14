@@ -2,8 +2,16 @@ import javax.swing.*;
 import java.awt.*;
 
 class Frame extends JFrame{
-    Frame(){
 
+    JLabel label;
+    Frame(){
+        label = new JLabel();
+        label.setText("Java");
+        label.setForeground(Color.WHITE);
+        label.setHorizontalAlignment(JLabel.CENTER);
+
+
+        this.add(label);
     }
 }
 
