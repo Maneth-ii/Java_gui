@@ -2,7 +2,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.MissingFormatArgumentException;
 
 class MainFrame1 extends JFrame implements ActionListener{
         String word = "--";
